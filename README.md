@@ -32,5 +32,5 @@ cd web-3-forms-tut
 ```bash
 npm run dev
 ```
-## Open preferred web browser enter 
+## On preferred web browser 
 [http://localhost:5173](http://localhost:5173/)
