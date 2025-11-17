@@ -2,8 +2,7 @@
 
 ## Introduction
 
-Welcome to the tutorial on integrating Web3Forms in a React.js application! This guide will walk you through the steps needed to set up and use Web3Forms in your React projects, allowing you to easily handle form submissions without a backend server.
-
+Welcome to the tutorial on integrating Web3Forms in a React.js application! This guide will walk you through the steps needed to set up and use Web3Forms in your React projects, allowing you to easily handle form submissions without a backend server.Have a look at the the video guide [here](https://www.youtube.com/watch?v=WOnczmBoFEw) and the ui preview [here](https://whistlink.github.io/web-3-forms-tut/).
 
 ![Web3Forms](https://web3forms.com/img/card.jpg)
 
@@ -25,12 +24,17 @@ First, clone the repository to your local machine:
 git clone https://github.com/whistlink/web-3-forms-tut.git
 cd web-3-forms-tut
 ```
+
 ### Configure the .env file
+
 -Configure the value of **VITE_WEB_ACCESS_TOKEN=""** to what access key web3forms has provided
 
 ### Run the project
+
 ```bash
 npm run dev
 ```
-## On preferred web browser 
+
+## On preferred web browser
+
 [http://localhost:5173](http://localhost:5173/)
