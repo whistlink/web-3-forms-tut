@@ -26,6 +26,7 @@ button {
   width: 100%;
   margin-top: 20px;
   color: whitesmoke;
+  cursor: not-allowed;
 }
 input {
   border: none;

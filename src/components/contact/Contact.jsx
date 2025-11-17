@@ -42,15 +42,29 @@ export default function Contact() {
       <div className="ct-form">
         <span>Contact form</span>
         <form className="form" onSubmit={onSubmit}>
-          <input type="text" placeholder="Name" name="name" required />
-          <input type="email" placeholder="Email" name="email" required />
-          <input type="text" placeholder="Subject" name="subject" required />
+          <input type="text" placeholder="Name" name="name" required disabled />
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+            disabled
+          />
+          <input
+            type="text"
+            placeholder="Subject"
+            name="subject"
+            required
+            disabled
+          />
           <textarea
             name="message"
             placeholder="Sample message"
             required
           ></textarea>
-          <button type="submit">Submit</button>
+          <button type="submit" disabled>
+            Submit
+          </button>
         </form>
       </div>
     </div>
